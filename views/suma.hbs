@@ -13,8 +13,12 @@
       name="btnSubmit"/>
 </form>
 <div>
-
-        {{sum}}<br>
-
+  <ul>
+    {{#each sum}}
+      <li>
+        {{this}}
+      </li>
+      {{/each}}
+  </ul>
 
 </div>
